@@ -5,11 +5,16 @@ import PageTitle from "@/components/Reuseable/PageTitle";
 import React from "react";
 
 const Projects = () => {
-  return (
+  if (typeof window === 'object') {
+    // Check if document is finally loaded
+    Projects.addEventListener("DOMContentLoaded", function () {
+      alert('Finished loading')
+    });
+  } return (
     <Layout>
       <Header />
       <PageTitle title="Creators" />
-      <ExploreCreators/>
+      <ExploreCreators />
     </Layout>
   );
 };

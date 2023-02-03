@@ -14,4 +14,4 @@ const Creators = () => {
     );
 };
 
-export default Projects;
+export default Creators;

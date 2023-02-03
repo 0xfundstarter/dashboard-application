@@ -5,7 +5,8 @@ import PageTitle from "@/components/Reuseable/PageTitle";
 import React from "react";
 
 const Projects = () => {
-    return (
+      
+  return (
         <Layout>
             <Header />
             <PageTitle title="Donation" />
