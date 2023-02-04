@@ -6,7 +6,7 @@ export const navItems = [
   {
     id: 1,
     name: "Home",
-    href: "https://kicknft.xyz",
+    href: "https://FundStarter.xyz",
 
 
 
@@ -52,9 +52,9 @@ const headerData = {
   logo2,
   icon,
   navItems,
-  email: "info@kicknft.xyz",
-  phone: "666 888 0000",
-  address: "66 Broklyn Street, USA",
+  email: "hi@FundStarter.xyz",
+  phone: " ",
+  address: "Metaverse",
   socials,
 };
 
