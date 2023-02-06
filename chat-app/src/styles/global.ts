@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import 'styled-components';
-import { FontFamilyEnum } from './global.d';
+import { FontFamilyEnum } from './global';
 import { DefaultTheme } from 'styled-components';
 
 const size = {
