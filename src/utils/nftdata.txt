@@ -1,0 +1,18 @@
+// creator
+const uri_p = "ipfs://QmPgDYfyzRNkCeqppD5BEUzJfKSbWNy5kpqNWPZmCM2VJD?filename=supporter-platinum.json"
+const uri_g = "ipfs://QmcnoTdbgMidDKcGj26dg6sNPyPGcfSgCbrU1jBu4xWiBf?filename=supporter-gold.json"
+const uri_s = "ipfs://QmXtyVDnnvuYoC1PszZQCmYzVtALk1AbYko4rLhmSd6CPt?filename=supporter-silver.json"
+
+const uri_p = "ipfs://QmPgDYfyzRNkCeqppD5BEUzJfKSbWNy5kpqNWPZmCM2VJD?filename=supporter-platinum.json"
+const uri_g = "ipfs://QmcnoTdbgMidDKcGj26dg6sNPyPGcfSgCbrU1jBu4xWiBf?filename=supporter-gold.json"
+const uri_s = "ipfs://QmXtyVDnnvuYoC1PszZQCmYzVtALk1AbYko4rLhmSd6CPt?filename=supporter-silver.json"
+
+
+// funder
+const uri_p = "ipfs://QmXDWj5sNVFtQZYR2RK3bdJNRWf94ffJmfnNfcqB48sau9"
+const uri_g = "ipfs://QmZ9XAz1Zn5CAKLyCL9VKmTJPAPxP7LDMLfYNv3opzxHBT"
+const uri_s = "ipfs://QmeiRDaiECwFq66dccduP7Xh3tQW7WZ2xYCovfarTqjRJP"
+
+const uri_p = "ipfs://QmSGs7pJ1xfaoi1vMaRW29KEgDv79hpEJzMgHsVHCeKvof/funder-platinum.json"
+const uri_g = "ipfs://QmR18BHfHjvEUgJ9s6B987YWgobmyR6yAZkqDmVyPJdbyV"
+const uri_s = "ipfs://QmSGs7pJ1xfaoi1vMaRW29KEgDv79hpEJzMgHsVHCeKvof/funder-silver.json"
