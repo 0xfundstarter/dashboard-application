@@ -35,9 +35,9 @@ import ProjectDetailsUpdates from "@/components/ProjectsArea/ProjectDetails/Proj
 import { ethers } from "ethers";
 import contractAbi from '../../utils/ProjectNFT.json'
 const CONTRACT_ADDRESS = '0xC284Be07898768F0818aAeC84A0bD95Bc5275670';
-const uri_p = "ipfs://QmXDWj5sNVFtQZYR2RK3bdJNRWf94ffJmfnNfcqB48sau9"
-const uri_g = "ipfs://QmZ9XAz1Zn5CAKLyCL9VKmTJPAPxP7LDMLfYNv3opzxHBT"
-const uri_s = "ipfs://QmeiRDaiECwFq66dccduP7Xh3tQW7WZ2xYCovfarTqjRJP"
+const uri_p = "ipfs://QmSGs7pJ1xfaoi1vMaRW29KEgDv79hpEJzMgHsVHCeKvof/funder-platinum.json"
+const uri_g = "ipfs://QmR18BHfHjvEUgJ9s6B987YWgobmyR6yAZkqDmVyPJdbyV"
+const uri_s = "ipfs://QmSGs7pJ1xfaoi1vMaRW29KEgDv79hpEJzMgHsVHCeKvof/funder-silver.json"
 
 const {
     thumb,
