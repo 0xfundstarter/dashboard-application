@@ -35,9 +35,8 @@ import ProjectDetailsUpdates from "@/components/ProjectsArea/ProjectDetails/Proj
 import { ethers } from "ethers";
 import contractAbi from '../../utils/ProjectNFT.json'
 const CONTRACT_ADDRESS = '0xC284Be07898768F0818aAeC84A0bD95Bc5275670';
-const uri_p = "ipfs://QmSGs7pJ1xfaoi1vMaRW29KEgDv79hpEJzMgHsVHCeKvof/funder-platinum.json"
-const uri_g = "ipfs://QmR18BHfHjvEUgJ9s6B987YWgobmyR6yAZkqDmVyPJdbyV"
-const uri_s = "ipfs://QmSGs7pJ1xfaoi1vMaRW29KEgDv79hpEJzMgHsVHCeKvof/funder-silver.json"
+const uri_d = "ipfs://QmPJ5or8Sf6EidVLqxHWaMDi6G4hYvHUS1WPpNWUKXCENt"
+
 
 const {
     thumb,
@@ -76,23 +75,15 @@ const ProjectDetailsPark = ({ perk = {} }) => {
                 console.log("Going to pop wallet now to pay gas...")
                 let tx, receipt;
 
-                if (value === 1) {
-                    tx = await contract.mintNFT1(uri_s, { value: ethers.utils.parseEther('0.001'), gasLimit: 5000000 });
-                }
 
-                if (value === 2) {
-                    tx = await contract.mintNFT1(uri_g, { value: ethers.utils.parseEther('0.002'), gasLimit: 5000000 });
-                }
 
-                if (value === 3) {
-                    tx = await contract.mintNFT1(uri_p, { value: ethers.utils.parseEther('0.003'), gasLimit: 5000000 });
-                }
+                tx = await contract.mintNFT1(uri_d, { value: ethers.utils.parseEther('0.003'), gasLimit: 5000000 });
+
 
                 receipt = await tx.wait();
                 // Check if the transaction was successfully completed
                 if (receipt.status === 1) {
                     console.log(" minted! https://explorer.testnet.mantle.xyz/tx/" + tx.hash);
-
 
                 } else {
                     alert("Transaction failed! Please try again");

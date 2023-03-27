@@ -36,7 +36,7 @@ import ProjectDetailsUpdates from "@/components/ProjectsArea/ProjectDetails/Proj
 import { ethers } from "ethers";
 import contractAbi from '../../utils/ProjectNFT.json'
 const CONTRACT_ADDRESS = '0xC284Be07898768F0818aAeC84A0bD95Bc5275670';
-const uri_d = "ipfs://QmbPaFexnufeeGfj6UGxChYDoVJxy8WydoxhHMRfqyDGUN"
+const uri_d = "ipfs://QmPJ5or8Sf6EidVLqxHWaMDi6G4hYvHUS1WPpNWUKXCENt"
 
 const {
     thumb,
