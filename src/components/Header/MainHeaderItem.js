@@ -71,8 +71,8 @@ const MainHeaderItem = ({
   // Render Methods
   const renderNotConnectedContainer = () => (<>
     <center>
-      <div className="text-6xl pt-32">
-        <Button variant="primary" size="lg" onClick={connectWallet} >Connect Wallet</Button>
+      <div className="text-6xl pt-32 text-white">
+        <Button className="text-white" size="lg" onClick={connectWallet} >Connect Wallet</Button>
       </div>
     </center>
   </>

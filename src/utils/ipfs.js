@@ -1,0 +1,7 @@
+export const funder1 = ""
+export const funder2 = ""
+export const funder3 = ""
+export const creator1 = ""
+export const creator2 = ""
+export const creator3 = ""
+export const donator = ""

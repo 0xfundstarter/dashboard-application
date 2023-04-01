@@ -1,0 +1,15 @@
+{
+    "description": "KickNFT Silver Funder - This is your proof of your Project Funding.",
+    "image": "ipfs://QmfZSCJ1fQd3FXQSM9AGnCgDfB44paqSCxtUNNcTKFgh5b/Funder-silver.png",
+    "name": "Funder",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Funder"
+        },
+        {
+            "trait_type": "Level",
+            "value": "Silver"
+        }
+    ]
+}

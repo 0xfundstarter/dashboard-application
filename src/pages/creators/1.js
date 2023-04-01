@@ -35,9 +35,12 @@ const { ids, text, lists, text2, items, text3, image, images } =
 import ProjectDetailsUpdates from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsUpdates";
 
 import { ethers } from "ethers";
-import contractAbi from '../../utils/contractABI.json'
-const CONTRACT_ADDRESS = '0xA2001555Ff78EF54cFB754c31661fe798902F327';
-const uri = "ipfs://bafkreigr3azmskokskqutkh6fjmdqarkm346kivoasnqoaiyzpq6yhoyii"
+import contractAbi from '../../utils/ProjectNFT.json'
+const CONTRACT_ADDRESS = '0xC284Be07898768F0818aAeC84A0bD95Bc5275670';
+const uri_p = "ipfs://QmQBdoW1P8tGTDWnu6RXEm2CAuuZoQwSJ1tnP8kQrmmnuW"
+const uri_g = "ipfs://QmV62ghMSVff9AzyN8zwVBkwPCa8q1N5ygJf2iA4fJkahp"
+const uri_s = "ipfs://QmfRijE1JzxYoxAqYwMjxm3bRX8YVgxLYoVNzuDKdzdvJo"
+
 
 const {
     thumb,
@@ -60,7 +63,47 @@ const { faqs, id } = creatorDetailsFaq;
 
 const ProjectDetailsPark = ({ perk = {} }) => {
     const { id, image, sold, off, amount, claimed, totalClaimed } = perk;
+    const mint = async (value) => {
+        try {
+            const { ethereum } = window;
+            console.log("try block is working");
+            if (ethereum) {
+                console.log("eth object issue");
+                const provider = new ethers.providers.Web3Provider(ethereum);
+                const signer = provider.getSigner();
+                console.log("provider")
+                const contract = new ethers.Contract(CONTRACT_ADDRESS, contractAbi, signer);
+                console.log("contract", contract)
 
+                console.log("Going to pop wallet now to pay gas...")
+                let tx, receipt;
+
+                if (value === 1) {
+                    tx = await contract.mintNFT1(uri_s, { value: ethers.utils.parseEther('0.001'), gasLimit: 5000000 });
+                }
+
+                if (value === 2) {
+                    tx = await contract.mintNFT1(uri_g, { value: ethers.utils.parseEther('0.002'), gasLimit: 5000000 });
+                }
+
+                if (value === 3) {
+                    tx = await contract.mintNFT1(uri_p, { value: ethers.utils.parseEther('0.003'), gasLimit: 5000000 });
+                }
+
+                receipt = await tx.wait();
+                // Check if the transaction was successfully completed
+                if (receipt.status === 1) {
+                    console.log(" minted! https://explorer.testnet.mantle.xyz/tx/" + tx.hash);
+
+
+                } else {
+                    alert("Transaction failed! Please try again");
+                }
+            }
+        } catch (error) {
+            console.log("Mint function calling issue", error);
+        }
+    }
 
 
     return (
@@ -78,7 +121,7 @@ const ProjectDetailsPark = ({ perk = {} }) => {
                     {claimed} out of {totalClaimed} <span>claimed</span>
                 </li>
             </ul>
-            <a className="main-btn" href="#">
+            <a className="main-btn" onClick={() => mint(id)}>
                 Continue now
             </a>
         </div>
@@ -122,20 +165,21 @@ const SingleProject = () => {
 
                 console.log("Going to pop wallet now to pay gas...")
 
-                let tx = await contract.safeMint(uri, { value: ethers.utils.parseEther('0.1') });
+                let tx = await contract.mintNFT1(uri2, { value: ethers.utils.parseEther('0.1') });
                 // Wait for the transaction to be mined
                 const receipt = await tx.wait();
 
                 // Check if the transaction was successfully completed
                 if (receipt.status === 1) {
-                    console.log(" minted! https://mumbai.polygonscan.com/tx/" + tx.hash);
+                    console.log(" minted! https://explorer.testnet.mantle.xyz/tx/" + tx.hash);
+
 
                 } else {
                     alert("Transaction failed! Please try again");
                 }
             }
         } catch (error) {
-            console.log(error);
+            console.log("catch", error);
         }
     }
 
@@ -177,7 +221,7 @@ const SingleProject = () => {
                                     </div>
                                     <div className="item text-center">
                                         <h5 className="title">{daysLeft}</h5>
-                                        <span>Days Left</span>
+                                        <span>Days Left Checking</span>
                                     </div>
                                 </div>
                                 <div className="projects-range">

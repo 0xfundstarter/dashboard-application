@@ -19,7 +19,7 @@ const SiteFooter = () => {
       <Container>
         <Row>
           <Col lg={4} md={6} sm={8}>
-            <div className="footer-about mt-30">
+            <div className="footer-about mt-10">
               <Link href="/">
                 <Image src={logo.src} alt="" />
               </Link>
@@ -35,27 +35,8 @@ const SiteFooter = () => {
               </ul>
             </div>
           </Col>
-         
-          <Col lg={4} md={6} sm={8}>
-            <div className="footer-newsletter mt-30">
-              <div className="footer-title">
-                <h4 className="title">Newsletter</h4>
-              </div>
-              <form onSubmit={handleSubmit(onSubmit)}>
-                <div className="input-box">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email Address"
-                  />
-                  <button>
-                    <i className="fa fa-envelope"></i>
-                  </button>
-                </div>
-              </form>
-              <p>{text2}</p>
-            </div>
-          </Col>
+
+        
         </Row>
         <Row>
           <Col lg={12}>
