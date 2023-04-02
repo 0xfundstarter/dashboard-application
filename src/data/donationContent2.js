@@ -225,7 +225,7 @@ export const donationDetailsSidebar = {
             image: projectPerk1,
             sold: 10,
             off: 50,
-            amount: "0.1 Matic",
+            amount: "0.1BIT",
             claimed: 10,
             totalClaimed: 50,
         },
