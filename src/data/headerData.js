@@ -7,16 +7,8 @@ export const navItems = [
     id: 1,
     name: "Home",
     href: "https://FundStarter.xyz",
-
-
-
   },
 
-  {
-    id: 3,
-    name: "Explore",
-    href: "/projects",
-  },
   {
     id: 4,
     name: "Projects",
