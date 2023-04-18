@@ -2,12 +2,12 @@
 FundStarter is a decentralized ecosystem for raising funds, supporting creators, and making donations to support needy people and non-profit organizations built on **Mantle Network**. We are trying to solve real-world problems using the concept of Decentralized Autonomous Organisation.
 
  ## Core Objectives & Features -
-🔗 Connect: We bridge the gap between the real world and the web3 world by enabling projects, creators, and non-profit organizations to get funds and support seamlessly. We enable people to create their own NFT DAOs. 
-🙏 Support: We aim to support real-world projects by leveraging Blockchain at its core. FundStarter is providing a much better approach to solving crowdfunding and donation platform problems that exist in current web2 platforms.
-💵 Reward: FundStarter provides a new way of raising funds. Everyone who funds, support, or donates via FundStarter will get a unique project-related NFT for their contribution that can be verified on-chain. Later, by holding NFTs, HODLers can earn yield whenever Creator or Project makes profits.
-🔔 Update: With the help of EPNS and FundStarter DAO, users are notified whenever there is any update from the project, creators, or organizations after they got funding.
-🌍 FundStarter DAO: DAO members will take all the essential decisions like accepting the listing proposal, distribution of funding, and distribution of profit for the smooth functioning of the platform.
-🎯GOAL: Our Ultimate Goal is to connect & support people using blockchain in such a way that they can leverage the technology and bring some positive changes in the world.
+* 🔗 Connect: We bridge the gap between the real world and the web3 world by enabling projects, creators, and non-profit organizations to get funds and support seamlessly. We enable people to create their own NFT DAOs. 
+* 🙏 Support: We aim to support real-world projects by leveraging Blockchain at its core. FundStarter is providing a much better approach to solving crowdfunding and donation platform problems that exist in current web2 platforms.
+* 💵 Reward: FundStarter provides a new way of raising funds. Everyone who funds, support, or donates via FundStarter will get a unique project-related NFT for their contribution that can be verified on-chain. Later, by holding NFTs, HODLers can earn yield whenever Creator or Project makes profits.
+* 🔔 Update: With the help of EPNS and FundStarter DAO, users are notified whenever there is any update from the project, creators, or organizations after they got funding.
+* 🌍 FundStarter DAO: DAO members will take all the essential decisions like accepting the listing proposal, distribution of funding, and distribution of profit for the smooth functioning of the platform.
+* 🎯GOAL: Our Ultimate Goal is to connect & support people using blockchain in such a way that they can leverage the technology and bring some positive changes in the world.
 
 ### Main features
 * For Projects - Verified Projects by DAO will be listed on the platform to raise funds. NFTs will be distributed to every project funder. Later when the project earns profit, there will be a distribution of profit on basis of NFT type to all project funders.
