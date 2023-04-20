@@ -1,7 +1,11 @@
 # About
 FundStarter is a decentralized ecosystem for raising funds, supporting creators, and making donations to support needy people and non-profit organizations built on **Mantle Network**. We are trying to solve real-world problems using the concept of Decentralized Autonomous Organisation.
 
- ## Core Objectives & Features -
+### Smart Contract
+FundStarter KickNFT edition - 0xC284Be07898768F0818aAeC84A0bD95Bc5275670 (Mantle Testnet)
+
+
+## Core Objectives & Features -
 * 🔗 Connect: We bridge the gap between the real world and the web3 world by enabling projects, creators, and non-profit organizations to get funds and support seamlessly. We enable people to create their own NFT DAOs. 
 * 🙏 Support: We aim to support real-world projects by leveraging Blockchain at its core. FundStarter is providing a much better approach to solving crowdfunding and donation platform problems that exist in current web2 platforms.
 * 💵 Reward: FundStarter provides a new way of raising funds. Everyone who funds, support, or donates via FundStarter will get a unique project-related NFT for their contribution that can be verified on-chain. Later, by holding NFTs, HODLers can earn yield whenever Creator or Project makes profits.
