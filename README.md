@@ -3,7 +3,7 @@ FundStarter is a decentralized ecosystem for raising funds, supporting creators,
 
 ### Smart Contract (on Mantle Testnet)
 FundStarter KickNFT edition - 0xC284Be07898768F0818aAeC84A0bD95Bc5275670 (old)
-FundStarter NFT Coll- 0x6E83054913aA6C616257Dae2e87BC44F9260EDc6 
+FundStarter NFT Collection - 0x6E83054913aA6C616257Dae2e87BC44F9260EDc6 (new)
 
 ## Core Objectives & Features -
 * 🔗 Connect: We bridge the gap between the real world and the web3 world by enabling projects, creators, and non-profit organizations to get funds and support seamlessly. We enable people to create their own NFT DAOs. 
